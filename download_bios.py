@@ -17,7 +17,7 @@ MIN_LENGTH = 150
 MAX_PRECEED = 40
 # PREFIXES = {'Col', 'Councillor', 'Dr', 'Lecturer', 'Maj', 'Mr', 'Mrs', 'Ms', 'Prof', 'Professor', 'Professsor'} # change back to set()
 
-COMMON_CRAWL_URL = 'https://commoncrawl.s3.amazonaws.com/'
+COMMON_CRAWL_URL = 'https://data.commoncrawl.org/'
 
 parser = ArgumentParser()
 parser.add_argument('wetpaths',
